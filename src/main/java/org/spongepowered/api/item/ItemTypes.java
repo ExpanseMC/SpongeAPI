@@ -103,6 +103,12 @@ public final class ItemTypes {
 
     public static final Supplier<ItemType> BEDROCK = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "BEDROCK");
 
+    public static final Supplier<ItemType> BEE_NEST = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "BEE_NEST");
+
+    public static final Supplier<ItemType> BEE_SPAWN_EGG = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "BEE_SPAWN_EGG");
+
+    public static final Supplier<ItemType> BEEHIVE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "BEEHIVE");
+
     public static final Supplier<ItemType> BEEF = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "BEEF");
 
     public static final Supplier<ItemType> BEETROOT = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "BEETROOT");
@@ -784,6 +790,14 @@ public final class ItemTypes {
     public static final Supplier<ItemType> HEART_OF_THE_SEA = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "HEART_OF_THE_SEA");
 
     public static final Supplier<ItemType> HEAVY_WEIGHTED_PRESSURE_PLATE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "HEAVY_WEIGHTED_PRESSURE_PLATE");
+
+    public static final Supplier<ItemType> HONEY_BLOCK = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "HONEY_BLOCK");
+
+    public static final Supplier<ItemType> HONEY_BOTTLE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "HONEY_BOTTLE");
+
+    public static final Supplier<ItemType> HONEYCOMB = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "HONEYCOMB");
+
+    public static final Supplier<ItemType> HONEYCOMB_BLOCK = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "HONEYCOMB_BLOCK");
 
     public static final Supplier<ItemType> HOPPER = Sponge.getRegistry().getCatalogRegistry().provideSupplier(ItemType.class, "HOPPER");
 

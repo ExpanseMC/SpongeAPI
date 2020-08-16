@@ -43,6 +43,8 @@ public final class BlockEntityTypes {
 
     public static final Supplier<BlockEntityType> BED = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockEntityType.class, "BED");
 
+    public static final Supplier<BlockEntityType> BEEHIVE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockEntityType.class, "BEEHIVE");
+
     public static final Supplier<BlockEntityType> BELL = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockEntityType.class, "BELL");
 
     public static final Supplier<BlockEntityType> BLAST_FURNACE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockEntityType.class, "BLAST_FURNACE");

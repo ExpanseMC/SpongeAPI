@@ -36,6 +36,7 @@ import org.spongepowered.api.entity.living.golem.SnowGolem;
 import org.spongepowered.api.entity.living.monster.Creeper;
 import org.spongepowered.api.entity.living.monster.Enderman;
 import org.spongepowered.api.entity.living.monster.Ghast;
+import org.spongepowered.api.entity.living.monster.Phantom;
 import org.spongepowered.api.entity.living.monster.Silverfish;
 import org.spongepowered.api.entity.living.monster.boss.Wither;
 import org.spongepowered.api.entity.living.monster.boss.dragon.EnderDragon;
@@ -119,6 +120,22 @@ public final class GameRules {
     public static final Supplier<GameRule<Boolean>> DO_FIRE_TICK = Sponge.getRegistry().getCatalogRegistry().provideSupplier(GameRule.class, "DO_FIRE_TICK");
 
     /**
+     * Whether {@link Phantom}s can spawn in the night-time.
+     *
+     * <p>This is a boolean game rule, with a default value of
+     * {@code true}.</p>
+     */
+    public static final Supplier<GameRule<Boolean>> DO_INSOMNIA = Sponge.getRegistry().getCatalogRegistry().provideSupplier(GameRule.class, "DO_INSOMNIA");
+
+    /**
+     * Whether {@link Player}s should respawn immediately without showing the death screen.
+     *
+     * <p>This is a boolean game rule, with a default value of
+     * {@code true}.</p>
+     */
+    public static final Supplier<GameRule<Boolean>> DO_IMMEDIATE_RESPAWN = Sponge.getRegistry().getCatalogRegistry().provideSupplier(GameRule.class, "DO_IMMEDIATE_RESPAWN");
+
+    /**
      * Whether {@link Player}s can only craft recipes they have unlocked.
      *
      * <p>This is a boolean game rule, with a default value of
@@ -153,6 +170,30 @@ public final class GameRules {
      * <p>This is a boolean game rule, with a default value of {@code true}.</p>
      */
     public static final Supplier<GameRule<Boolean>> DO_WEATHER_CYCLE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(GameRule.class, "DO_WEATHER_CYCLE");
+
+    /**
+     * Whether entities should take drowning damage.
+     *
+     * <p>This is a boolean game rule, with a default value of
+     * {@code true}.</p>
+     */
+    public static final Supplier<GameRule<Boolean>> DROWNING_DAMAGE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(GameRule.class, "DROWNING_DAMAGE");
+
+    /**
+     * Whether entities should take fall damage.
+     *
+     * <p>This is a boolean game rule, with a default value of
+     * {@code true}.</p>
+     */
+    public static final Supplier<GameRule<Boolean>> FALL_DAMAGE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(GameRule.class, "FALL_DAMAGE");
+
+    /**
+     * Whether entities should take fire damage.
+     *
+     * <p>This is a boolean game rule, with a default value of
+     * {@code true}.</p>
+     */
+    public static final Supplier<GameRule<Boolean>> FIRE_DAMAGE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(GameRule.class, "FIRE_DAMAGE");
 
     /**
      * Whether {@link Player}s should keep items in their inventory

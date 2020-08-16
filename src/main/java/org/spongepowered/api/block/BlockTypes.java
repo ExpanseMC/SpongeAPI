@@ -99,6 +99,10 @@ public final class BlockTypes {
 
     public static final Supplier<BlockType> BEDROCK = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "BEDROCK");
 
+    public static final Supplier<BlockType> BEE_NEST = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "BEE_NEST");
+
+    public static final Supplier<BlockType> BEEHIVE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "BEEHIVE");
+
     public static final Supplier<BlockType> BEETROOTS = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "BEETROOTS");
 
     public static final Supplier<BlockType> BELL = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "BELL");
@@ -590,6 +594,10 @@ public final class BlockTypes {
     public static final Supplier<BlockType> HAY_BLOCK = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "HAY_BLOCK");
 
     public static final Supplier<BlockType> HEAVY_WEIGHTED_PRESSURE_PLATE = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "HEAVY_WEIGHTED_PRESSURE_PLATE");
+
+    public static final Supplier<BlockType> HONEY_BLOCK = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "HONEY_BLOCK");
+
+    public static final Supplier<BlockType> HONEYCOMB_BLOCK = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "HONEYCOMB_BLOCK");
 
     public static final Supplier<BlockType> HOPPER = Sponge.getRegistry().getCatalogRegistry().provideSupplier(BlockType.class, "HOPPER");
 
